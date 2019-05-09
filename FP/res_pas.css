@@ -1,0 +1,18 @@
+/* スマホ用レイアウト */
+@media (max-width: 670px) {
+    .title-area {
+        text-align: center;
+    }
+
+    .title {
+        padding-left: 80px;
+    }
+
+    .menu-span {
+        display: none;
+    }
+}
+
+/* タブレット用レイアウト */
+@media (max-width: 1000px) {
+}

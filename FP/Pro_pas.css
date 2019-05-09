@@ -1,0 +1,121 @@
+/*　ページ全体　*/
+body {
+    margin: 0%;
+}
+
+.header-space {
+    height: 40px;
+}
+
+/*　トップ　*/
+.top {
+    background-color: rgb(109, 132, 179);
+    height: 40px;
+    color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 50;
+    width: 100%;
+}
+
+.top-text-wrap {
+    height: 40px;
+}
+
+.top-text {
+    /* MENUテキストをトップバーの中央に設定する */
+    line-height: 40px;
+    padding-left: 13px;
+}
+
+/* メニュー */
+.top-menu-wrap {
+    padding-top: 20px;
+    margin-right: 20px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.top-menu {
+    font-size: 14px;
+    opacity: 0.8;
+    float: right;
+    margin: 40px;
+}
+
+.top-menu span {
+    margin: 2px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    padding: 6px;
+}
+
+.top-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-span span:hover {
+    background-color: rgb(134, 186, 186);
+    /*　ホバー時にアンダーラインを引く */
+    text-decoration: underline;
+}
+
+/*　メインの画像エリア　*/
+.main {
+    height: 400px;
+    background-size: cover;
+    animation: img-change 30s infinite;
+}
+
+@keyframes img-change {
+    0% { background-image: url(http://pas-pol.jp/wp-content/uploads/2014/11/main_visual_13-0x0.jpg); }
+    25% { background-image: url(http://pas-pol.jp/wp-content/uploads/2014/11/main_visual_2-0x0.jpg); }
+    50% { background-image: url(http://pas-pol.jp/wp-content/uploads/2014/11/main_visual_6-0x0.jpg); }
+    75% { background-image: url(http://pas-pol.jp/wp-content/uploads/2014/11/main_visual_111-0x0.jpg); }
+    100% { background-image: url(http://pas-pol.jp/wp-content/uploads/2014/11/main_visual_13-0x0.jpg); }
+}
+
+.title {
+    display: inline-block;
+    margin: 0px 30px;
+    color: white;
+    opacity: 0.7;
+}
+
+.title h1 {
+    margin-bottom: 0%;
+    padding-bottom: 0px;
+}
+
+.title p {
+    font-size: 4px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+/* テキスト範囲の設定 */
+.text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text h2 {
+    margin-top: 40px;
+}
+
+.sub-text {
+    margin-bottom: 18px;
+}
+
+.text p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*　一番下　*/
+footer {
+    background-color: rgb(235, 167, 214);
+    height: 30px;
+}
