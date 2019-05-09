@@ -1,3 +1,8 @@
+FP : ポートフォリオ 
+
+Stock-Price-Analysis : 株価分析
+
+
 ## 株価分析
 
 使い方
